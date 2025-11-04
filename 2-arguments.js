@@ -2,7 +2,7 @@ const arg = process.argv.slice(2);
 
 switch (arg.length) {
   case 0:
-    console.log("No Args");
+    console.log("No argument");
     break;
   case 1:
     console.log("Argument found");
