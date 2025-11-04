@@ -4,7 +4,7 @@ if (isNaN(args)) {
   console.log("Missing size");
 } else if (!isNaN(args) > 0) {
   while (i < args) {
-    console.log("x".repeat(args));
+    console.log("X".repeat(args));
     i++;
   }
 }
